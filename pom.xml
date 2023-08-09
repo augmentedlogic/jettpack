@@ -4,11 +4,31 @@
   <groupId>com.augmentedlogic.jettpack</groupId>
   <artifactId>jettpack</artifactId>
   <version>0.1.1</version>
+  <name>jettpack</name>
+  <description>A small collection of java convenience methods, mainly to be used with embedded jetty</description>
+  <url>https://developer.augmentedlogic.com</url>
   <properties>
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
     <maven.compiler.source>1.8</maven.compiler.source>
     <maven.compiler.target>1.8</maven.compiler.target>
   </properties>
+  <licenses>
+    <license>
+      <name>MIT Licence</name>
+      <url>https://opensource.org/licenses/MIT</url>
+      <distribution>repo</distribution>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <name>Wolfgang Hauptfleisch</name>
+      <email>dev@augmentedlogic.com</email>
+    </developer>
+  </developers>
+  <scm>
+    <connection>scm:git:git://github.com/augmentedlogic/jettpack.git</connection>
+    <url>http://github.com/augmentedlogic/jettpack</url>
+  </scm>
   <build>
     <plugins>
       <plugin>
@@ -88,7 +108,7 @@
     <dependency>
       <groupId>org.eclipse.jetty</groupId>
       <artifactId>jetty-server</artifactId>
-      <version>9.4.25.v20191220</version>
+      <version>9.4.51.v20230217</version>
     </dependency>
     <dependency>
       <groupId>javax.servlet</groupId>
